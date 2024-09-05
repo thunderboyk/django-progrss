@@ -20,7 +20,8 @@ from generator import views
 
 # here i just made a veiws path for my custom website 
 # give some name go for views.___name will be here
+
 urlpatterns = [
-   path('',),
+path('home', views.yes),
 ]
 
