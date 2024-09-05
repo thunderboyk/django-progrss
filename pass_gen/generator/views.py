@@ -8,6 +8,4 @@ def yes(request):
 	return HttpResponse('gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa beeeeeeeeeeeee')
 
 def eggs(request):
-	return HttpResponse('<h1>egg omlet is the best<h1>')	
-	
-	
+	return HttpResponse('<h2>eggs godd ye s approves<h2>')	
