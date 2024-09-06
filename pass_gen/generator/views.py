@@ -5,7 +5,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def yes(request):
-	return HttpResponse('<h1>gaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa beeeeeeeeeeeee<h1>')
+	return render(request, 'generator/home.html')
 
 def eggs(request):
 	return HttpResponse('<h1>eggs godd ye s approves<h1>')	
